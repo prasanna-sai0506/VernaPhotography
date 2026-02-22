@@ -1,0 +1,15 @@
+export const navLinks = [
+  { label: 'Home', to: '/', primary: true },
+  { label: 'Portfolios', to: '/portfolio', primary: true },
+  { label: 'Pricing', to: '/plans', primary: true },
+  { label: 'About', to: '/about', primary: true },
+  { label: 'Contact', to: '/contact', cta: true },
+  { label: 'Wedding Photography', to: '/portfolio?category=wedding' },
+  { label: 'Pre-Wedding Shoots', to: '/portfolio?category=prewedding' },
+  { label: 'Drone Photography', to: '/portfolio?category=drone' },
+  { label: 'Reels & Cinematic Videos', to: '/portfolio?category=reels' },
+  { label: 'Product Photography', to: '/portfolio?category=product' },
+  { label: 'Plans & Pricing', to: '/plans' },
+  { label: 'About Studio', to: '/about' },
+  { label: 'Contact Us', to: '/contact' },
+]

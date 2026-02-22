@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: photo-studio-3d-fullstack
+    env: node
+    rootDir: .
+    plan: free
+    buildCommand: npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend
+    startCommand: npm start --prefix backend
+    healthCheckPath: /
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false
